@@ -42,6 +42,11 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "course",
     "core", 
+    "accounts",
+    "result",
+    "search",
+    "payments",
+    "locale",
 ]
 
 MIDDLEWARE = [
