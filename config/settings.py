@@ -41,14 +41,14 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "course",
-    "core.apps.CoreConfig",
+    #"core.apps.CoreConfig",
     "core",
     "accounts",
     "result",
     "search",
     "payments",
     "locale",
-    "core.models.NewsAndEvents",
+    #"core.models.NewsAndEvents",
 ]
 
 MIDDLEWARE = [
