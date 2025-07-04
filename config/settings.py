@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "search",
     "payments",
     "locale",
+    "core.models.NewsAndEvents",
 ]
 
 MIDDLEWARE = [
