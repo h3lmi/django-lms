@@ -59,7 +59,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "ebm_lms.urls"
+ROOT_URLCONF = "config.urls"
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "ebm_lms.wsgi.application"
+WSGI_APPLICATION = "config.wsgi.application"
 
 
 # Database
