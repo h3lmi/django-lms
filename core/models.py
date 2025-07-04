@@ -63,8 +63,8 @@ class NewsAndEvents(models.Model):
 
     objects = NewsAndEventsManager()
 
-    class Meta:
-        app_label = "core"
+   # class Meta:
+    #    app_label = "core"
 
     
     def __str__(self):
